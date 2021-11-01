@@ -62,15 +62,16 @@ body{
   font-size: 16px;
 }
 .scrolling{
-  
+  overflow-x: scroll;
   display: flex;
   margin-top: 17px;
   background-color: #E5E5E5;
   height: 216px;
   width: 100%;
 }
+.optionSelected{
+}
 .mainCourse{
-  overflow-x: scroll;
   margin-left: 19px;
   font-family: roboto;
   font-weight: 400;
@@ -83,7 +84,6 @@ body{
   background-color: #E5E5E5;
 }
 .beverage{
-  overflow-x: scroll;
   margin-left: 19px;
   font-family: roboto;
   font-weight: 400;
@@ -96,7 +96,6 @@ body{
   background-color: #E5E5E5;
 }
 .dessert{
-  overflow-x: scroll;
   margin-left: 0px;
   font-family: roboto;
   font-weight: 400;
@@ -109,6 +108,7 @@ body{
   background-color: #E5E5E5;
 }
 footer{
+  
   display: flex;
   justify-content: center;
   align-items: center;
